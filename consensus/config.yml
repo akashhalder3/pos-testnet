@@ -2,6 +2,7 @@
 
 # TODO some clients need either the mainnet/minimal name for base config values (Lighthouse/Nimbus?)
 CONFIG_NAME: "mainnet"
+CONFIG_NAME: 'mergednet'
 
 # Misc
 # ---------------------------------------------------------------
