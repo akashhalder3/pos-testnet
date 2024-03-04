@@ -1,7 +1,13 @@
-# Merge devnet preset
+# Mainnet config
 
-# TODO some clients need either the mainnet/minimal name for base config values (Lighthouse/Nimbus?)
-CONFIG_NAME: "mainnet"
+# Extends the mainnet preset
+PRESET_BASE: 'mainnet'
+
+# Free-form short name of the network that this configuration applies to - known
+# canonical network names include:
+# * 'mainnet' - there can be only one
+# * 'prater' - testnet
+# Must match the regex: [a-z0-9\-]
 CONFIG_NAME: 'mergednet'
 
 # Misc
